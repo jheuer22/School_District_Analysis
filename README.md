@@ -15,17 +15,27 @@ Replacing the 9th grade math and reading scores at Thomas High School with NaN v
 
 ![Top_5_Schools_Modified.png](Resources/Top_5_Schools_Modified.png)
 
-
 Additionally, replacing the ninth-grade scores did not affect any of the following relative to the original analysis: 
-  - Math and reading scores by grade
-  - Scores by school spending
-  - Scores by school size
-  - Scores by school type
+  - Math and reading scores by grade: 
+	These appear to show that scores across the 9th – 12th grade students do not vary greatly within each school. 
+
+  - Scores by school spending: 
+	These appear to show that higher scores on the exams tend to be more associated with being in the lower spending ranges. 
+
+  - Scores by school size: 
+	These appear to show that larger schools are more likely to be associated with lower test scores. 
+
+  - Scores by school type: 
+	These appear to indicate that District schools had lower passing rates than the Charter schools in the district. 
  
 Images of the original and modified DataFrames can be viewed in the Resources folder of this analysis for further inspection. 
 
 ## Summary: 
-Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+In this analysis, we removed the math and reading test scores and replaced them with blank, NaN values for Thomas High School in the PyCity Schools District Analysis. This was requested after there was some suspicion of the academic integrity of the scores of these students. After the 9th grade scores were removed, the analysis was performed again. There were no changes in the overall outcomes of the analysis when these suspect values were removed. The ranking of Thomas High School was not altered relative to the other schools and the overall percentages for Thomas High School were not changed when rounded to the nearest whole value. 
+
+This is good news for the both the school and the district that the possibly compromised scores did not change the analysis. This indicates that the 9th grade scores were not a significant factor in the performance of Thomas High School in the original analysis. The school and district can feel confident that the original analysis is reflective of what is shown in the data and that the possible academic integrity issues did not affect the scores or analysis in any significant way.
+
+
 
 
 
